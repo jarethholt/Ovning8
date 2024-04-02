@@ -68,6 +68,7 @@ main .row div:last-child {
 
 .kaffemaskiner > div {
     display: flex;
+    padding: .5em 1em;
 }
 
 .kaffemaskiner .left {
