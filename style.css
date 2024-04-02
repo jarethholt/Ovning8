@@ -49,12 +49,64 @@ main {
     margin: 1rem 0rem;
 }
 
-main .row div {
+main div.info {
+    text-align: left;
+}
+
+main div.info h2 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+main div.info div {
     border-bottom: 2px solid rgba(0, 0, 0, .4);
 }
 
 main .row div:last-child {
     border-bottom: none;
+}
+
+.kaffemaskiner > div {
+    display: flex;
+}
+
+.kaffemaskiner .left {
+    float: left;
+    width: 40%;
+    min-width: 150px;
+    height: 15rem;
+}
+
+.kaffemaskiner .left img {
+    height: 15rem;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.kaffemaskiner .right {
+    float: right;
+    height: 15rem;
+    margin-left: 1em;
+    display: grid;
+}
+
+.kaffemaskiner .right h4 {
+    font-style: italic;
+    text-align: center;
+    align-self: flex-start;
+}
+
+.kaffemaskiner .info {
+    text-align: start;
+    align-self: center;
+    margin-left: 1em
+}
+
+.kaffemaskiner .price {
+    font-weight: bold;
+    text-align: end;
+    align-self: flex-end;
 }
 
 footer {
