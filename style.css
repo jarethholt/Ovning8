@@ -82,12 +82,12 @@ main .row div:last-child {
     width: 100%;
     max-width: 100%;
     object-fit: cover;
+    border-radius: 20px;
 }
 
 .kaffemaskiner .right {
     float: right;
     height: 15rem;
-    margin-left: 1em;
     display: grid;
 }
 
@@ -100,7 +100,11 @@ main .row div:last-child {
 .kaffemaskiner .info {
     text-align: start;
     align-self: center;
-    margin-left: 1em
+    margin-left: 1em;
+}
+
+.kaffemaskiner .info li {
+    margin: .5em 0em;
 }
 
 .kaffemaskiner .price {
