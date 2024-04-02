@@ -45,6 +45,18 @@ header {
     border-radius: 20px;
 }
 
+main {
+    margin: 1rem 0rem;
+}
+
+main .row div {
+    border-bottom: 2px solid rgba(0, 0, 0, .4);
+}
+
+main .row div:last-child {
+    border-bottom: none;
+}
+
 footer {
     margin-top: 1rem;
     border-radius: 5px;
