@@ -21,7 +21,18 @@ nav {
     margin-bottom: 1rem;
 }
 
-.navbar-brand {
+.breadcrumbs {
+    height: 1rem;
+    text-align: center;
+    line-height: 1rem;
+}
+
+.breadcrumb-item a {
+    color: gray !important;
+    text-decoration: none;
+}
+
+.breadcrumb-item.active {
     color: lightgray !important;
 }
 
