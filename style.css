@@ -22,15 +22,23 @@ nav {
 }
 
 .navbar-brand {
-    color: lightgray;
+    color: lightgray !important;
 }
 
 .nav-link.active {
-    color: lightgray;
+    color: lightgray !important;
 }
 
 header {
-    text-align: center;
     border: 5px solid var(--coffee-dark);
     border-radius: 20px;
+}
+
+footer {
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+footer a {
+    color: gray;
 }

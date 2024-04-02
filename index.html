@@ -13,10 +13,10 @@
     <title>Index</title>
 </head>
 
-<body class="bg-primary">
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-top bg-dark">
+<body class="bg-primary d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand-sm navbar-dark navbar-top bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="index.html">BonBön</a>
+            <a class="navbar-brand" href="index.html">Bon Bön</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -38,14 +38,30 @@
     </nav>
 
     <header role="heading">
-        <h1 class="fw-bolder">
-            Bon Bön<br>
-            <small class="fw-normal">
-                Kaffe, kaffemaskiner, och kaffeparty<br>
-                till både företag och privat
-            </small>
-        </h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-1 align-self-center">
+                    <h1 class="fw-bolder text-center text-sm-start">Bon Bön</h1>
+                </div>
+                <div class="col-12 col-sm-11 align-self-center">
+                    <p class="fs-2 lh-1 mt-sm-2 text-center text-sm-end">Kaffe, kaffemaskiner, och kaffeparty<br>till både företag och privat</p>
+                </div>
+            </div>
+        </div>
     </header>
+
+    <footer class="bg-dark mt-auto">
+        <div class="container-fluid pt-1 pb-2">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <div class="text-center text-xs-start">Webmaster: <a href="mailto:jareth.holt@gmail.com">Jareth Holt</a></div>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="text-center text-xs-end">Bon Bön AB &copy;2024</div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
