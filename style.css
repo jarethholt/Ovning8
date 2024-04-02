@@ -1,0 +1,15 @@
+:root {
+    --coffee-medium: #6d4848;
+    --coffee-dark: #3d2828;
+}
+
+body {
+    padding: 3rem 1rem;
+    background-color: var(--coffee-medium);
+}
+
+header {
+    text-align: center;
+    border: 5px solid var(--coffee-dark);
+    border-radius: 20px;
+}
