@@ -1,11 +1,32 @@
 :root {
+    --coffee-light: #aa7171;
     --coffee-medium: #6d4848;
     --coffee-dark: #3d2828;
 }
 
+.bg-primary {
+    background-color: var(--coffee-medium) !important;
+}
+
+.bg-dark {
+    background-color: var(--coffee-dark) !important;
+    color: var(--coffee-light) !important;
+}
+
 body {
-    padding: 3rem 1rem;
-    background-color: var(--coffee-medium);
+    padding: 1rem 1rem;
+}
+
+nav {
+    margin-bottom: 1rem;
+}
+
+.navbar-brand {
+    color: lightgray;
+}
+
+.nav-link.active {
+    color: lightgray;
 }
 
 header {
