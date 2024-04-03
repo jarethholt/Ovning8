@@ -114,6 +114,27 @@ main .row div:last-child {
     align-self: flex-end;
 }
 
+hr {
+    border: none;
+    border-top: 2px solid var(--coffee-dark);
+    opacity: 1;
+}
+
+.kaffeparty .partyDescription h3 {
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+}
+
+.kaffeparty .contact {
+    text-align: right;
+    font-size: large;
+}
+
+.kaffeparty .contact a {
+    color: rgb(100, 100, 100);
+}
+
 footer {
     margin-top: 1rem;
     border-radius: 5px;
